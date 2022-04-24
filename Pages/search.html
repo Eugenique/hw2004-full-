@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Auto</title>
+</head>
+
+<body>
+    <h1>Поиск Авто</h1>
+    <form action="https://fom.in.ua/echo">
+        <label for="search_auto">Марка Автомобиля</label>
+        <select name="Auto" id="search_auto">
+            <option value="Honda">Honda</option>
+            <option value="BMW">BMW</option>
+            <option value="Audi">Audi</option>
+            <option value="Subaru">Subaru</option>
+            <option value="Infinity">Infinity</option>
+            <option value="Mazda">Mazda</option>
+        </select>
+
+        <label for="years">Год</label>
+        <select name="years" id="years">
+            <option value="1990-1995">1990-1995</option>
+            <option value="1995-2000">1995-2000</option>
+            <option value="2000-2005">2000-2005</option>
+            <option value="2005-2010">2005-2010</option>
+            <option value="2010-2015">2010-2015</option>
+            <option value="2015-2022">2015-2022</option>
+        </select>
+        <br>
+        <br>
+        Состояние
+        <input type="radio" name="condition" checked>Б/У
+        <input type="radio" name="condition">Новая
+        <br>
+        <br>
+        <label for="Region">Регион</label>
+        <select name="Region" id="Region">
+            <option value="Одесская">Одесса</option>
+            <option value="Киевская">Киев</option>
+            <option value="Харьков">Харьков</option>
+            <option value="Львов">Львов</option>
+            <option value="Николаев">Николаев</option>
+            <option value="Виница">Виница</option>
+        </select>
+        <br>
+        <br>
+        Цена от
+        <input type="number" name="Price_low" step="100">
+        Цена до
+        <input type="number" name="Price_hight" step="100">
+        <br>
+        <br>
+        Тип кузова: <br>
+        <input type="checkbox" name="Седан"> <img src="../img/sedan.jpg" alt="Sedan">Седан <br>
+        <input type="checkbox" name="Хэтчбэк"> <img src="../img/hatch.jpg" alt="Hatchback"> Хэтчбэк<br>
+        <input type="checkbox" name="Лифтбэк"> <img src="../img/lift.jpg" alt="Liftback"> Лифтбек<br>
+        <input type="checkbox" name="Купе"> <img src="../img/cupe.jpg" alt="Cupe">Купе<br>
+        <input type="checkbox" name="Лимузин"> <img src="../img/lim.jpg" alt="Limuzin">Лимузин<br>
+        <input type="checkbox" name="Кабриолет"> <img src="../img/cabrio.jpg" alt="Cabrio"> Кабриолет <br>
+        <br>
+        <br>
+        <label for="con">Техническое Состояние</label>
+        <select name="con" id="con">
+            <option value="Был в ДТП">Был в ДТП</option>
+            <option value="Не бы в ДТП">Не бы в ДТП</option>
+        </select>
+        <br>
+        <br>
+        <label for="fuel">Тип Топлива</label>
+
+        <select name="fuel" id="fuel">
+            <option value="Бензин">Бензин</option>
+            <option value="Дизель">Дизель</option>
+            <option value="Газ">Газ</option>
+            <option value="Гибрид">Гибрид</option>
+            <option value="Электро">Электро</option>
+        </select>
+
+        <label for="drive_unit">Тип Привода</label>
+
+        <select name="drive_unit" id="drive_unit">
+            <option value="Полный">Полный</option>
+            <option value="Задний">Задний</option>
+            <option value="Кардан">Кардан</option>
+            <option value="Ремень">Ремень</option>
+        </select>
+        <br>
+        <br>
+        <input type="checkbox" name="Trade"><img src="../img/trade.jpg" alt="Возможность обмена"> Возможность обмена
+        <br>
+        <br>
+        <input type="submit">
+        <br>
+        <br>
+        <br>
+    </form>
+
+
+
+</body>
+
+</html>
